@@ -1,6 +1,5 @@
 import React from 'react'
-import { Column2, ImgWrap, InfoContainer, InfoWrapper, InfoRow, Column1, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Img } from './InfoElements'
-import { Button } from '../Button'
+import { Column1, Column2, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoElements'
 
 
 const InfoSection = ({lightBg, id, imgStart, topLine,lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
@@ -13,8 +12,8 @@ const InfoSection = ({lightBg, id, imgStart, topLine,lightText, headLine, darkTe
               <TopLine>{topLine}</TopLine>
               <Heading lightText = {lightText}>{headLine}</Heading>
               <Subtitle darkText = {darkText}>{description}</Subtitle>
-              <TopLine>Here are a few technologies I’ve been working with recently:</TopLine>
-              <Subtitle>JavaScript, React, Python, and Java</Subtitle>
+              {/* <TopLine>Here are a few technologies I’ve been working with recently:</TopLine>
+              <Subtitle>JavaScript, React, Python, and Java</Subtitle> */}
 
             </TextWrapper>
           </Column1>

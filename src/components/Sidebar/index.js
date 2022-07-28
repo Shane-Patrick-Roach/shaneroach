@@ -1,6 +1,6 @@
 import React from 'react'
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarBtnWrap, SidebarMenu, SidebarLink, SidebarRoute } from './SidebarElements'
 import pdf from "../../assets/shane-roach-resume.pdf"
+import { CloseIcon, Icon, SidebarBtnWrap, SidebarContainer, SidebarLink, SidebarMenu, SidebarWrapper } from './SidebarElements'
 
 
 export const Sidebar = ({ isOpen, toggle }) => {

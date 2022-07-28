@@ -1,9 +1,9 @@
 import React from 'react'
 
 
-import { ServicesCard, ServicesContainer, ServicesH1, ServicesIcon,ServicesH2, ServicesWrapper, ServicesP,  Icon, ServicesHeader, ServicesLinkIcon, ServicesLinkWrapper, ServicesTools } from './ServicesElements'
+import { FaGithub, FaRegCaretSquareRight } from 'react-icons/fa'
 import { projects } from './data'
-import { FaGit, FaGithub, FaLandmark, FaRegCaretSquareRight } from 'react-icons/fa'
+import { Icon, ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesHeader, ServicesIcon, ServicesLinkIcon, ServicesLinkWrapper, ServicesP, ServicesTools, ServicesWrapper } from './ServicesElements'
 
 const Services = () => {
   return (
