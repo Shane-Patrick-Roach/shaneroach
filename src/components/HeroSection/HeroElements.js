@@ -6,10 +6,11 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 export const HeroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 30px;
+  justify-content: start;
+  align-items: start;
+  padding: 6vw 20vw;
   height: 800px;
+  
   position: relative;
   z-index: 1;
   font-family: 'Poppins'
@@ -24,7 +25,7 @@ export const HeroBg = styled.div`
   width: 100%:
   height: 100%;
   overflow: hidden;
-  background-image: linear-gradient(180deg, #00B0FF, black);
+  
 `
 export const VideoBg = styled.video`
   width: 100%;
@@ -48,18 +49,13 @@ export const ImgBg = styled.img`
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
-  position: absolute;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  
 `
 
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 48px;
-  text-align: center;
+  font-size: 60px;
+  
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -73,10 +69,27 @@ export const HeroH1 = styled.h1`
 `
 
 export const HeroP = styled.p`
-  margin-top: 24px;
+  
   color: #fff;
-  font-size: 24px;
-  text-align: center;
+  font-size: 26px;
+  
+  max-width: 600px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
+`
+
+export const HeroPsub = styled.p`
+  
+  color: #00B0FF;
+  font-size: 26px;
+  
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
@@ -91,9 +104,10 @@ export const HeroP = styled.p`
 
 
 export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
+  margin-top: 10px;
+  max-width: fit-content;
+  margin-top: 60px;
+  
   align-items: center;
 `
 

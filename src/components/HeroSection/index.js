@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from '../Button'
-import { ArrowForward, ArrowRight, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP } from './HeroElements'
+import { ArrowForward, ArrowRight, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, HeroPsub } from './HeroElements'
 
 const HeroSection = () => {
 
@@ -20,10 +20,10 @@ const HeroSection = () => {
         </ImgBg> */}
       </HeroBg>
       <HeroContent>
-        <HeroP >
+        <HeroPsub >
           Hi, my name is 
-        </HeroP>
-        <HeroH1>Shane Roach</HeroH1>
+        </HeroPsub>
+        <HeroH1>Shane Roach.</HeroH1>
         <HeroH1 style={{color: '#cccccc'}}>I build things for the web.</HeroH1>
         <HeroP style={{color: '#aaaaaa'}}>
           I am a software engineer who loves to create immersive, aesthetic, accessible user experiences.
@@ -32,7 +32,6 @@ const HeroSection = () => {
           <Button to='projects' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             {hover ? <ArrowForward /> : <ArrowRight></ArrowRight>} View Work
           </Button>
-
 
         </HeroBtnWrapper>
       </HeroContent>
