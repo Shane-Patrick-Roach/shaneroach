@@ -16,7 +16,7 @@ export const ServicesContainer = styled.div`
   }
 
   @media sceen and (max-width: 480px) {
-    height: 1500px;
+    height: 100px;
   }
 `
 
@@ -46,7 +46,7 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
 
   border-radius: 5px;
-  maxheight: 400px;
+  max-height: 400px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
