@@ -39,9 +39,6 @@ const Services = () => {
             <ServicesTools>{project.subtitle}</ServicesTools>
 
             
-
-
-
           </ServicesCard>
 
 

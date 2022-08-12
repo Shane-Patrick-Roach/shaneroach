@@ -26,6 +26,16 @@ export const projects = [
     sourceCode: "https://github.com/JoRoJaLa/tool-share-mobile",
     link: "https://github.com/JoRoJaLa/tool-share-mobile"
   }
+  ,
+  // {
+  //   title: "Mini Projects",
+  //   subtitle: "React",
+  //   description:
+  //   "Collection of mini projects to develop certain skills. Specific technologies are grouped in folders.",
+  //   image: "",
+  //   sourceCode: "https://github.com/JoRoJaLa/tool-share-mobile",
+  //   link: "https://github.com/JoRoJaLa/tool-share-mobile"
+  // }
   
 ];
 

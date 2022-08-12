@@ -3,7 +3,7 @@ import { FaFolder } from 'react-icons/fa'
 
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: 840px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,11 +12,11 @@ export const ServicesContainer = styled.div`
   font-family: 'Poppins';
 
   @media screen and (max-width:768px) {
-    height: 1100px;
+    height: 1200px;
   }
 
   @media sceen and (max-width: 480px) {
-    height: 1300px;
+    height: 1500px;
   }
 `
 
