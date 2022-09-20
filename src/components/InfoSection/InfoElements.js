@@ -11,7 +11,8 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  min-height: 800px;
+  max-height: max-content;
   width: 100%;
   font-family: 'Poppins';
   max-width: 1100px;

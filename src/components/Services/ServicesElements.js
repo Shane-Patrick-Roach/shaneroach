@@ -3,31 +3,33 @@ import { FaFolder } from 'react-icons/fa'
 
 
 export const ServicesContainer = styled.div`
-  height: 840px;
+  height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
   font-family: 'Poppins';
+  padding: 26px;
 
   @media screen and (max-width:768px) {
-    height: 1200px;
+    height: max-content;
   }
 
   @media sceen and (max-width: 480px) {
-    height: 100px;
+    height: max-content;
   }
 `
 
 
 export const ServicesWrapper = styled.div`
   max-width: 1000px;
+  height: max-content;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 16px;
+  grid-gap: 20px;
   padding: 0 50px;
 
   @media screen and (max-width: 1000px){
@@ -45,8 +47,9 @@ export const ServicesCard = styled.div`
   flex-direction: column;
   justify-content: flex-start;
 
-  border-radius: 5px;
-  max-height: 400px;
+  border-radius: 10px;
+  min-height: 350px;
+  max-height: 350px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
@@ -55,6 +58,7 @@ export const ServicesCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    border: 5px solid #00B0FF;
   }
 `
 

@@ -1,5 +1,15 @@
 export const projects = [
-  {
+  
+    {
+      title: "Galaxy",
+      subtitle: "ThreeJs, Vite",
+      description:
+      "Create your own 3d galaxy structures.",
+      image: "",
+      sourceCode: "https://github.com/Shane-Patrick-Roach/galaxy",
+      link: "https://galaxy-topaz.vercel.app/"
+    },
+    {
     title: "My Kitchen",
     subtitle: "React, Express, Node.js, MongoDB",
     description:
@@ -27,15 +37,7 @@ export const projects = [
     link: "https://github.com/JoRoJaLa/tool-share-mobile"
   }
   ,
-  // {
-  //   title: "Mini Projects",
-  //   subtitle: "React",
-  //   description:
-  //   "Collection of mini projects to develop certain skills. Specific technologies are grouped in folders.",
-  //   image: "",
-  //   sourceCode: "https://github.com/JoRoJaLa/tool-share-mobile",
-  //   link: "https://github.com/JoRoJaLa/tool-share-mobile"
-  // }
+  
   
 ];
 
